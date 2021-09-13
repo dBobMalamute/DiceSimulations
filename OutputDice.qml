@@ -19,7 +19,7 @@ Rectangle
         y: 5
         x: 2
         width: parent.width
-        height: 300
+        height: 670
         cellHeight: 42
         cellWidth: 42
 
