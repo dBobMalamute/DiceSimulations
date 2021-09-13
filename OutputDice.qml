@@ -6,7 +6,6 @@ Rectangle
     id: displayArea
     width: 180
 
-
     gradient: Gradient
     {
         GradientStop{position: 0.05; color: "black"}
@@ -82,6 +81,8 @@ Rectangle
     {
         anchors.bottom: parent.bottom
         anchors.right: parent.right
+        anchors.rightMargin: 5
+        anchors.bottomMargin: 5
         width: 120
         height: 40
         color: "#86b2c2"

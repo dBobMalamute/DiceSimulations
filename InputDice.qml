@@ -5,7 +5,7 @@ Rectangle
 {
     id: controlsArea
     width: 270
-    height: parent.height
+    height: 740
     gradient: Gradient
     {
         GradientStop{position: 0.05; color: "#0b0b19"}
