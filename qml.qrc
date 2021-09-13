@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>DiceImages/6Sides1.png</file>
+        <file>DiceImages/6Sides2.png</file>
+        <file>DiceImages/6Sides3.png</file>
+        <file>DiceImages/6Sides4.png</file>
+        <file>DiceImages/6Sides5.png</file>
+        <file>DiceImages/6Sides6.png</file>
+        <file>DiceImages/8Sides1.png</file>
+        <file>DiceImages/8Sides2.png</file>
+        <file>DiceImages/8Sides3.png</file>
+        <file>DiceImages/8Sides4.png</file>
+        <file>DiceImages/8Sides5.png</file>
+        <file>DiceImages/8Sides6.png</file>
+        <file>DiceImages/8Sides7.png</file>
+        <file>DiceImages/8Sides8.png</file>
+        <file>InputDice.qml</file>
+        <file>OutputDice.qml</file>
+        <file>InputDieInterval.qml</file>
+        <file>InputDieNextInterval.qml</file>
+        <file>DieConversionFunctions.js</file>
+        <file>PreviousInputDie.qml</file>
+        <file>OutputDieInterval.qml</file>
+        <file>OutputDieNextInterval.qml</file>
+        <file>InputInterval.qml</file>
+        <file>AddFirstDieAnimatedImage.qml</file>
+        <file>AddAdditionalDieAnimatedImage.qml</file>
+        <file>OutputDieAnimatedImage.qml</file>
+    </qresource>
+</RCC>
