@@ -130,6 +130,4 @@ Window
             anchors.leftMargin: 75
         }
     }
-
-
 }
