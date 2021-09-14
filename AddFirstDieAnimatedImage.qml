@@ -6,7 +6,7 @@ Item
     width: 42
     height: 42
 
-    y: 121
+    y: 163
     z: 100
     x: 10
 

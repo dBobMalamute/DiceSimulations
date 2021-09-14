@@ -16,17 +16,17 @@ Rectangle
             PropertyChanges
             {
                 target: gradientTop
-                color: "#042323"
+                color: "#1a1a1a"
             }
             PropertyChanges
             {
                 target: gradientMid
-                color: "#056767"
+                color: "#666666"
             }
             PropertyChanges
             {
                 target: gradientBot
-                color: "#042323"
+                color: "#1a1a1a"
             }
         },
         State {
@@ -34,26 +34,26 @@ Rectangle
             PropertyChanges
             {
                 target: gradientTop
-                color: "#230f04"
+                color: "#84451b"
             }
             PropertyChanges
             {
                 target: gradientMid
-                color: "#673405"
+                color: "#b05c24"
             }
             PropertyChanges
             {
                 target: gradientBot
-                color: "#230f04"
+                color: "#84451b"
             }
         }
     ]
 
     gradient: Gradient
     {
-        GradientStop{id: gradientTop; position: 0.0; color: "#042323"}
-        GradientStop{id: gradientMid; position: 0.5; color: "#056767"}
-        GradientStop{id: gradientBot; position: 1.0; color: "#042323"}
+        GradientStop{id: gradientTop; position: 0.0; color: "#1a1a1a"}
+        GradientStop{id: gradientMid; position: 0.5; color: "#666666"}
+        GradientStop{id: gradientBot; position: 1.0; color: "#1a1a1a"}
     }
 
     property alias source: image.source

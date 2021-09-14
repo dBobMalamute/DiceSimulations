@@ -5,18 +5,40 @@ Rectangle
 {
     id: controlsArea
     width: 270
-    height: 740
+    height: 720
     gradient: Gradient
     {
-        GradientStop{position: 0.05; color: "#0b0b19"}
-        GradientStop{position: 0.5; color: "#382200"}
-        GradientStop{position: 0.95; color: "#0b0b19"}
+        GradientStop{position: 0.05; color: "#84451b"}
+        GradientStop{position: 0.5; color: "#b05c24"}
+        GradientStop{position: 0.95; color: "#84451b"}
+    }
+
+    Rectangle
+    {
+        id: instructions
+        anchors.top: parent.top
+        anchors.topMargin: 5
+        anchors.horizontalCenter: parent.horizontalCenter
+        width: parent.width - 20
+        height: 40
+        color: "#86b2c2"
+        radius: 6
+        Text
+        {
+            anchors.centerIn: parent
+            text: "Click Dice to Add"
+            font.pointSize: 16
+            font.bold: true;
+            color: "#1a1a1a"
+        }
     }
 
     Row
     {
+        id: dieButtonRow
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 5
+        anchors.top: instructions.bottom
+        anchors.topMargin: 10
         spacing: 5
         Image
         {
@@ -95,8 +117,9 @@ Rectangle
     Row
     {
         id: inputControlsRow
+        anchors.top: dieButtonRow.bottom
+        anchors.topMargin: 10
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 60;
         spacing: 10
 
         property int diceToRoll: 1
@@ -239,7 +262,5 @@ Rectangle
                 color: "#1a1a1a"
             }
         }
-
-
     }
 }

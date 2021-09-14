@@ -8,9 +8,9 @@ Rectangle
 
     gradient: Gradient
     {
-        GradientStop{position: 0.05; color: "black"}
-        GradientStop{position: 0.5; color: "#1b0423"}
-        GradientStop{position: 0.95; color: "black"}
+        GradientStop{position: 0.05; color: "#1b3184"}
+        GradientStop{position: 0.5; color: "#2444b0"}
+        GradientStop{position: 0.95; color: "#1b3184"}
     }
 
     GridView
@@ -80,8 +80,7 @@ Rectangle
     Rectangle
     {
         anchors.bottom: parent.bottom
-        anchors.right: parent.right
-        anchors.rightMargin: 5
+        anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottomMargin: 5
         width: 120
         height: 40

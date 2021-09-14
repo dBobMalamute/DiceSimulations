@@ -8,8 +8,8 @@ import "DieConversionFunctions.js" as DieConversionFunctions
 
 Window
 {
-    width: 960
-    height: 740
+    width: 1160
+    height: 920
 
     visible: true
     title: qsTr("")
@@ -17,30 +17,62 @@ Window
 
     Rectangle
     {
+        anchors.bottom: mainWindow.top
+        anchors.bottomMargin: 10
+        anchors.horizontalCenter: parent.horizontalCenter
+        height: 60
+        width: 740;
+        radius: 10
+        color: "#333333"
+        border.color: "black"
+        border.width: 3
+
+        Text
+        {
+            color: "#178017"
+            font.bold: true
+            font.pointSize: 20
+            anchors.centerIn: parent
+            text: "Rolling d6s into d8s at the Information Theoretic Limit"
+        }
+    }
+
+    Text
+    {
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 5
+        anchors.right: parent.right
+        anchors.rightMargin: 5
+        text: "dBobMalamute"
+        color: "#6a6a6a"
+    }
+
+    Rectangle
+    {
         id: mainWindow
         width: 960
-        height: 740
-        color: "black"
+        height: 720
         anchors.centerIn: parent
+        color: "#0a0a0a"
 
         InputDice
         {
             id: inputDice
         }
 
-        Rectangle
+        Item
         {
             id: conversionArea
             width: 360
             height: 720
             anchors.leftMargin: 75
             anchors.left: inputDice.right
-            gradient: Gradient
-            {
-                GradientStop{position: 0.05; color: "black"}
-                GradientStop{position: 0.5; color: "#252525"}
-                GradientStop{position: 0.95; color: "black"}
-            }
+//            gradient: Gradient
+//            {
+//                GradientStop{position: 0.05; color: "black"}
+//                GradientStop{position: 0.5; color: "#252525"}
+//                GradientStop{position: 0.95; color: "black"}
+//            }
 
             PreviousInputDie
             {
@@ -125,7 +157,7 @@ Window
 
         OutputDice
         {
-            height: 740
+            height: 720
             anchors.left: conversionArea.right
             anchors.leftMargin: 75
         }

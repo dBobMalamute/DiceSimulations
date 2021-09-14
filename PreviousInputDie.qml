@@ -7,9 +7,9 @@ Rectangle
     width: 60
     gradient: Gradient
     {
-        GradientStop{id: gradientTop; position: 0.0; color: "#230f04"}
-        GradientStop{id: gradientMid; position: 0.5; color: "#673405"}
-        GradientStop{id: gradientBot; position: 1.0; color: "#230f04"}
+        GradientStop{id: gradientTop; position: 0.0; color: "#84451b"}
+        GradientStop{id: gradientMid; position: 0.5; color: "#b05c24"}
+        GradientStop{id: gradientBot; position: 1.0; color: "#84451b"}
     }
 
     property int nextValue: 0

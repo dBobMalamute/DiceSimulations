@@ -147,7 +147,7 @@ Item
         z: 10
         ShapePath
         {
-            strokeColor: "#ff9853"
+            strokeColor: "#129d12"
             strokeWidth: 4
             strokeStyle: ShapePath.DashLine
             fillColor: "transparent"
@@ -158,7 +158,7 @@ Item
         }
         ShapePath
         {
-            strokeColor: "#ff9853"
+            strokeColor: "#129d12"
             strokeWidth: 4
             strokeStyle: ShapePath.DashLine
             fillColor: "transparent"

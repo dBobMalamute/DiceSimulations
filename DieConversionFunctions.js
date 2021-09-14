@@ -125,8 +125,8 @@ function zoomInOnDie(lastValue, thisValue, intervalTop, intervalBottom)
 function startAdditionalDieAnimation(lastValue, thisValue, processedDice)
 {
     var additionalDieAnimationComponent = Qt.createComponent("AddAdditionalDieAnimatedImage.qml")
-    var additionalDieAnimationObject = additionalDieAnimationComponent.createObject(mainWindow,
-                                                                                    {y: 119 + 42*Math.floor(processedDice / 6),
+    var additionalDieAnimationObject = additionalDieAnimationComponent.createObject(mainWindow, //163
+                                                                                    {y: 163 + 42*Math.floor(processedDice / 6),
                                                                                      x: 8 + 42 * (processedDice % 6),
                                                                                     finalY: 120*(lastValue-1) + 20*(thisValue-1) - 10});
     additionalDieAnimationObject.setValue(thisValue);
