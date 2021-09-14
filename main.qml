@@ -21,11 +21,11 @@ Window
         anchors.bottomMargin: 10
         anchors.horizontalCenter: parent.horizontalCenter
         height: 60
-        width: 740;
-        radius: 10
+        width: 760;
+        radius: 20
         color: "#333333"
         border.color: "black"
-        border.width: 3
+        border.width: 6
 
         Text
         {
